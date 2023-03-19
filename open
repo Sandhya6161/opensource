@@ -1,0 +1,26 @@
+touch open
+sudo apt-get install hardinfo
+hardinfo
+sudo apt-get install git -y
+git --version
+git config --global user.name "Sandhya6161"
+git config --global user.email "srao6161@gmail.com"
+git config --list
+pwd
+ls -al
+gedit .gitconfig
+mkdir git_workspace
+cd git_workspace/
+git clone "https://github.com/Sandhya6161/opensource.git"
+ls
+cd opensource/
+ls
+touch open
+ls
+gedit open
+git status
+git add open
+git status
+git commit -m "first opensource program" open
+git push -u origin main
+
