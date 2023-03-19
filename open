@@ -21,6 +21,6 @@ gedit open
 git status
 git add open
 git status
-git commit -m "first opensource program" open
+git commit -m "abc"
 git push -u origin main
 
